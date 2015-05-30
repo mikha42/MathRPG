@@ -23,6 +23,6 @@
     }
      
     function DoubleTapFunction () {
-        rb.AddForce(transform.forward * forward * 20);
-        rb.AddForce(transform.right * left * -20);
+        rb.AddForce(transform.forward * forward * 10);
+        rb.AddForce(transform.right * left * -10);
     }
