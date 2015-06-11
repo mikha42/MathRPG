@@ -3,6 +3,7 @@
 var Plr : Transform;
 var Anim : Animator;
 var oldT : Vector3;
+Anim.speed = 0.1;
 
 function Start () {
 	var oldT = Plr.transform.position;
