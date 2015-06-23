@@ -23,4 +23,6 @@ function Update () {
 		if (Input.GetKey ("d")) {
 		transform.Translate(Vector3.right / 15);
 	}
+	transform.rotation.x = 0;
+	transform.rotation.z = 0;
 }
